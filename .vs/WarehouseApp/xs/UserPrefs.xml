@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{CA6EDDD6-1433-49A4-BB3C-11886122A0AE}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GatheApp/MainPage.xaml.cs">
+    <Files>
+      <File FileName="GatheApp/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="GatheApp/MainPage.xaml" Line="7" Column="15" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.GatheApp.UITests FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GatheApp FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.GatheApp.iOS FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.GatheApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" FirstBuild="True" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>

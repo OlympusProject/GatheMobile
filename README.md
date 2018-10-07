@@ -1,2 +1,2 @@
-# WarehouseApp
-mobile app for warehouse
+# GatheApp
+mobile app for Gathe
