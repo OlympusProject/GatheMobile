@@ -19,5 +19,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)class\function\DB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)class\" />
+    <Folder Include="$(MSBuildThisFileDirectory)class\function\" />
   </ItemGroup>
 </Project>
