@@ -1,2 +1,2 @@
-# GatheApp
+# GatheMobile
 mobile app for Gathe
