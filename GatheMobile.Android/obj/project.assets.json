@@ -340,6 +340,19 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "GatheMobile/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "bin/placeholder/GatheMobile.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GatheMobile.dll": {}
+        }
       }
     }
   },
@@ -749,10 +762,16 @@
         "xamarin.forms.3.1.0.697729.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "GatheMobile/1.0.0": {
+      "type": "project",
+      "path": "../GatheMobile/GatheMobile.csproj",
+      "msbuildProject": "../GatheMobile/GatheMobile.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "GatheMobile >= 1.0.0",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v4 >= 27.0.2.1",
       "Xamarin.Android.Support.v7.AppCompat >= 27.0.2.1",
@@ -784,7 +803,11 @@
       },
       "frameworks": {
         "monoandroid81": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/key/Documents/GatheMobile/GatheMobile/GatheMobile.csproj": {
+              "projectPath": "/Users/key/Documents/GatheMobile/GatheMobile/GatheMobile.csproj"
+            }
+          }
         }
       }
     },

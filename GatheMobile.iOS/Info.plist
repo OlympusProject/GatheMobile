@@ -25,7 +25,7 @@
     <key>CFBundleDisplayName</key>
     <string>GatheMobile</string>
     <key>CFBundleIdentifier</key>
-    <string>com.Gathe.GatheMobile</string>
+    <string>com.gathe.GatheMobile</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>UILaunchStoryboardName</key>

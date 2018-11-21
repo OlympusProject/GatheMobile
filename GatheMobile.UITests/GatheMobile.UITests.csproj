@@ -33,13 +33,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GatheMobile.iOS\GatheMobile.iOS.csproj">
-      <Project>{C521E421-43DB-493A-A6D0-C1F749216996}</Project>
+      <Project>{3C48D138-4DF9-48A9-BD7F-8451F3477FA4}</Project>
       <Name>GatheMobile.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\GatheMobile.Android\GatheMobile.Android.csproj">
-      <Project>{CA6EDDD6-1433-49A4-BB3C-11886122A0AE}</Project>
+      <Project>{DF7DA17E-4899-4E7E-A7CC-BE14A0C1C6A9}</Project>
       <Name>GatheMobile.Android</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>

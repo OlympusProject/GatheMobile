@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA6EDDD6-1433-49A4-BB3C-11886122A0AE}</ProjectGuid>
+    <ProjectGuid>{DF7DA17E-4899-4E7E-A7CC-BE14A0C1C6A9}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
@@ -91,6 +91,11 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
-  <Import Project="..\GatheMobile\GatheMobile.projitems" Label="Shared" />
+  <ItemGroup>
+    <ProjectReference Include="..\GatheMobile\GatheMobile.csproj">
+      <Project>{F6C044AC-110B-449A-AD82-C48B0DF2C50D}</Project>
+      <Name>GatheMobile</Name>
+    </ProjectReference>
+  </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
