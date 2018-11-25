@@ -10,8 +10,10 @@ namespace GatheMobile
 {
     public class Const
     {
-        public static bool AdminAccess = true, AllowEditEvent = false;
+        public static bool adminAccess = true, allowEditEvent = false;
         public static bool isTest = false;
+        public static double defaultScreenHeight = 1280;
+        public static double defaultScreenWidth = 720;
         public static string
             client_id = "",
             client_secret = "",

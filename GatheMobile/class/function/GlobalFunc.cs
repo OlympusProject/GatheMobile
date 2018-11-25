@@ -618,19 +618,19 @@ namespace GatheMobile
 
         public static double ConvertHeight(double height)
         {
-            double heightConverted = (App.ScreenHeight / 1334) * height;
+            double heightConverted = (App.ScreenHeight / Const.defaultScreenHeight) * height;
             return heightConverted;
         }
 
         public static double ConvertWidth(double width)
         {
-            double widthConverted = (App.ScreenWidth / 750) * width;
+            double widthConverted = (App.ScreenWidth / Const.defaultScreenWidth) * width;
             return widthConverted;
         }
 
         public static double ConvertFontSize(double fontSize)
         {
-            double fontSizeConverted = (App.ScreenHeight / 1334) * fontSize;
+            double fontSizeConverted = (App.ScreenHeight / Const.defaultScreenHeight) * fontSize;
             return fontSizeConverted;
         }
 
